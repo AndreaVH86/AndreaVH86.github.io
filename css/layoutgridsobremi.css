@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*dimensiones*/
+    margin: 0px;
+    /*posicion*/
+    display: grid;
+
+    grid-template-areas: 
+    'header hrader header'
+    'div main main main'
+    'main main main main'
+    'footer footer';
+
+    
+}
+/*header/logo*/
+header{
+   
+    position: sticky;
+    top: 0px;
+    grid-template-columns: 25% 50% 25%;
+    background-color: antiquewhite;
+}
+nav{
+   
+    position: absolute;
+    left: 30%;
+    bottom: 0px;
+    
+    
+    background-color: aqua;
+
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+}
+li a{
+    text-decoration: none;
+}
+.presentacion{
+    display: grid;
+    
+    grid-template-areas:
+    'texto-vertical img h1'
+    'texto-vertical img p';
+
+    
+    grid-template-columns: 10% 40% 40% 10% ;
+
+    background-color: aquamarine;
+  
+    
+}
+.texto-vertical{
+    grid-area: texto-vertical;
+    font-family: '';
+    display: grid;
+    
+    background-color: bisque;
+}
+.foto-principal{
+    grid-area: img;
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 5%;
+    
+}
+
+
+.texto-articulo{
+    width: 40%;/*dimension del <div>*/
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: justify;
+   
+}
+
+div p{
+    grid-area: p;
+    position: relative;
+    box-sizing: border-box;
+      
+}
+div h1{
+    grid-area: h1;
+    position: relative;
+    top: 50%;
+}
+
+footer{
+    height: 200px;
+    background-color: aliceblue;
+    
+}
+
+

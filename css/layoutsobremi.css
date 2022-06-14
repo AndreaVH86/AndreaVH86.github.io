@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*ENCABEZADO CONTIENE EL LOGO*/ 
+header{ 
+    margin: 0px;
+    padding: 0px;
+    width: 100vw; /*ocupa todo el ancho de la pantalla*/
+    height: 150px;
+    position: relative;/*se fija en los 0px del margen top*/
+    top: 0px;
+    z-index: 1;
+}
+header img{
+    width: 150px;
+}
+/* MENU DE NAVEGACION*/
+nav{
+    padding: 0px;
+    position: absolute; /*aunque hagamos scroll seguiremos viendo la barra de navegacion, se fija a las 150px del margen top*/
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.mostrable{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+/* el <div> que esta dentro del <class="desplegable"> al cual le pasa :hover*/
+li.desplegable:hover div{
+    display: block;
+}
+li{
+    display: inline;
+    padding: 8px;
+}
+/*anclas dentro del nav*/
+nav a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh
+    
+}
+main img{ 
+    
+    width: 25%;
+}
+    
+
+   
+
+    
+    
+    
+   
+
+
+
+   
+
+
+    
+
+    
+
+
+
+
+
+

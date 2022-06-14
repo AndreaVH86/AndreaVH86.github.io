@@ -1,0 +1,54 @@
+/*quitamos todas los margenes y paddings*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    position: relative;
+    display: inline;
+}
+
+header{
+    position: sticky;
+    height: 150px;
+    top: 0px;
+    width: 100%; 
+}
+nav{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    width: 100vw;
+}
+li{
+    display: inline;
+    padding: 8px;
+}
+main{
+    margin: 20px;
+
+}
+figure{
+    width: 50%;
+    margin: 0px auto;
+}
+
+
+figure img{
+    height: 300px;
+    width: 25%;
+    object-fit: cover; /*mantiene las medidas de la imagen sin deformarla recortandola*/
+}
+.panoramica{
+    width: 49%;
+   
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+    
+
+

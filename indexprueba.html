@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layoutgridsobremi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Dongle&display=swap" rel="hoja de estilo">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header> 
+        <img src="fotos/Nuevo Latido (2).png" alt="Logo del estudio" class="foto-logo" width="150px">
+        
+        <nav>
+            <ul>
+               <li >
+                   <a href="index.html">Sobre mi</a>
+               </li>
+               <li>
+                   <a href="elestudio.html">El estudio</a>
+               </li>
+               <li>
+                   <a href="contacto.html">Contacto</a>
+               </li>
+               <li>
+                   <a href="asanas.html">Asanas</a>
+               </li>
+               <li>
+                   <a href="tablademovimientos.html">Tabla de asanas</a>
+               </li>
+           </ul>
+       </nav>
+    </header>
+    
+    
+    
+   
+    <main>
+       
+       
+        <article class="presentacion">
+            <div class="texto-vertical">
+                sobre mi
+            </div> 
+            <img src="fotos/IMG_5416.JPEG" alt="andrea" width="300px" class="foto-principal">
+            <div class="texto-articulo">
+                <h1>esto es el titulo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit earum, placeat perferendis itaque dignissimos veritatis, harum recusandae reprehenderit impedit assumenda laborum corrupti dolorem quas, dolorum vero blanditiis perspiciatis illo dicta?
+                </p>
+           </div>
+        </article>
+          <!--ESTO ES UNA GALERIA DE FOTOS--> 
+        
+
+        <article class="galeria-fotos">
+            <h2>esto es una galeria</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reiciendis et suscipit maxime, nihil corporis harum sunt ipsam rerum laborum cum necessitatibus architecto officia hic, atque, laudantium obcaecati eum natus!
+
+            </p>
+
+            <img src="fotos-galeria/IMG_6153.JPEG" alt="caballos" width="300px">
+            <img src="fotos-galeria/IMG_6151.JPEG" alt="vacas" width="300px">
+            <img src="fotos-galeria/IMG_6150.JPEG" alt="chica-con-vacas" width="300px">
+            <img src="fotos-galeria/IMG_6148.JPEG" alt="pareja-entre-hojas" width="300px">
+            <img src="fotos-galeria/IMG_6147.JPEG" alt="chica" width="300px">
+            
+        </article>
+        <!--ESTO ES UNA GALERIA DE VIDEOS MUSICALES-->
+        <article class="gaelria-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5b35haQV7tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zICENXhkQB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+            </iframe>
+
+
+
+        </article>
+    </main>
+    <footer>
+        <form action="http:/SrSato.pythonanywhere.com/comedatos" method="post" target="_blank">
+            <label for="usuario"> NOMBRE:</label>
+            <input type="text" name="usuario" value="nombre completo">
+            <label for="clave"> CONTRASEÑA: </label>
+            <input type="number" name="clave" placeholder="sin espacios.">
+            <label for="salario"> SALARIO: </label>
+            <input type="number" name="salario" name="salario" step="500" value="500" min="0" max="50000">
+          
+
+
+            <p> ¿Cual es tu favorita?</p>
+            <input type="radio" name="serie" id="tronos" value="juego de tronos">
+            <label for="tronos"> Juego de tronos </label>
+            <br>
+            <input type="radio" name="serie" id="wire" value="la escucha">
+            <label for="wire"> The Wire </label>
+            <br>
+            <input type="radio" name="serie" id="urkell" value="cosas de casa">
+            <label for="urkell"> Cosas de casa </label>
+            <br><br>
+            <input type="checkbox" name="acepta" value="acepta" required="required">
+            <label for="">acepto las condiciones de la web</label>
+            <br><br>
+            <input type="reset" value="borrar">
+            <input type="submit" class="enviar">
+            <br><br>
+
+
+        </form>
+    </footer>
+    
+</body>
+</html>

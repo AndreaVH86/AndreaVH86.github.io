@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* AQUI TENEMOS EL ENCABEZADO CON  LA FOTO DEL LOGO*/
+ header{
+    
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 10%;
+    background-color: beige;
+
+
+}
+.foto-logo{
+    
+    height: 100px;
+}
+/* ESTO ES EL NAVEGADOR CON UNA LISTA*/
+nav{
+    
+    position: absolute;
+    left: 33%;
+    top: 85px;
+    z-index: 1;
+    width: 40vw;
+    background-color: rgb(169, 247, 247);
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    display: inline;
+    
+}
+
+
+
+/*aqui va la presentacion con un titulo, un parrafo y una foto*/
+.texto-vertical{
+    float: left;
+    width: 20%;
+    height: 30%;
+    writing-mode: vertical-lr;
+    
+   
+}
+.presentacion{
+    float: left;
+    margin-left: 20%;
+    width: 80%;
+    height: 30%;
+    background-color: rgb(221, 178, 163);
+}
+article h1{ 
+    position: absolute;
+    right: 20%;
+    top: 25%;
+}
+article img{
+    height: 500px;
+    padding: 10%
+
+
+
+}
+
+
+/* aqui va la galeria de fotos*/
+.galeria-fotos{
+    float: left;
+    width: 100%;
+    background-color: rgb(243, 210, 166);
+
+}
+/*dimensiones de la galeria de fotos*/
+article img{
+    height: 300px;
+
+}
+
+
+/*aqui va la galeria de viedos*/
+.videos{
+    float: left;
+    width: 100%;
+    
+    background-color: lavender;
+
+}
+footer{
+    float: left;
+    width: 100%;
+    
+    background-color: aquamarine;
+}
